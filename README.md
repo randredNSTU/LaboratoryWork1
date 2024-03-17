@@ -112,3 +112,104 @@ Triangle perimeter: 12.0
 Triangle area: 6.0
 Isosceles triangle: false
 ```
+
+# RU
+
+# Калькулятор прямоугольника
+
+Это программа разработанна на языке программирования Java, с целью выполнения различных вычислений, связанных с прямоугольниками. Основные функции включают в себя вычисление периметра, площади и длины диагонали прямоугольника.
+
+## Требования
+
+- Установленная Java Development Kit (JDK) на вашем компьютере.
+- Любая среда разработки на Java или текстовый редактор (например, IntelliJ IDEA, Eclipse, Visual Studio Code) для просмотра и редактирования кода.
+
+## Как использовать
+
+1. Клонируйте репозиторий на свой компьютер или загрузите файл `Rectangle.java` напрямую.
+2. Откройте файл в выбранной вами среде разработки на Java или текстовом редакторе.
+3. Скомпилируйте и запустите файл `Rectangle.java`.
+4. Программа выведет периметр, площадь и длину диагонали прямоугольника.
+
+## Описание классов
+
+### `Rectangle`
+
+#### Переменные
+
+- `private double width`: Ширина прямоугольника.
+- `private double height`: Высота прямоугольника.
+
+#### Конструкторы
+
+- `public Rectangle(double width, double height)`: Создает новый объект прямоугольника с заданной шириной и высотой.
+
+#### Методы
+
+- `public double calculatePerimeter()`: Вычисляет периметр прямоугольника.
+- `public double calculateArea()`: Вычисляет площадь прямоугольника.
+- `public double calculateDiagonal()`: Вычисляет длину диагонали прямоугольника.
+
+### `Main`
+
+#### Методы
+
+- `public static void main(String[] args)`: Точка входа в программу. Создает объект `Rectangle` с заданными значениями ширины и высоты, вычисляет и выводит периметр, площадь и длину диагонали прямоугольника.
+
+## Пример ввода/вывода
+
+```
+Периметр прямоугольника: 30.0
+Площадь прямоугольника: 50.0
+Длина диагонали прямоугольника: 11.180339887498949
+```
+
+# EN
+# Rectangle calculator
+
+It is a program developed in Java programming language for the purpose of performing various calculations related to rectangles. Basic functions include calculating the perimeter, area and diagonal length of a rectangle.
+
+## Requirements
+
+- Java Development Kit (JDK) installed on your computer.
+- Any Java development environment or text editor (for example, IntelliJ IDEA, Eclipse, Visual Studio Code) for viewing and editing code.
+
+## How to use
+
+1. Clone the repository to your computer or download the `Rectangle.java` file directly.
+2. Open the file in your Java development environment or text editor of choice.
+3. Compile and run the `Rectangle.java` file.
+4. The program will display the perimeter, area and diagonal length of the rectangle.
+
+## Description of classes
+
+### `Rectangle`
+
+#### Variables
+
+- `private double width`: The width of the rectangle.
+- `private double height`: The height of the rectangle.
+
+#### Constructors
+
+- `public Rectangle(double width, double height)`: Creates a new rectangle object with the given width and height.
+
+#### Methods
+
+- `public double calculatePerimeter()`: Calculates the perimeter of a rectangle.
+- `public double calculateArea()`: Calculates the area of a rectangle.
+- `public double calculateDiagonal()`: Calculates the diagonal length of a rectangle.
+
+### `Main`
+
+#### Methods
+
+- `public static void main(String[] args)`: The entry point to the program. Creates a `Rectangle` object with the given width and height values, calculates and displays the perimeter, area and diagonal length of the rectangle.
+
+## Example I/O
+
+```
+Rectangle perimeter: 30.0
+Rectangle area: 50.0
+Rectangle diagonal length: 11.180339887498949
+```
