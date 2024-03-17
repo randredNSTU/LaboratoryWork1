@@ -25,6 +25,7 @@ public class Rectangle {
         return Math.sqrt(Math.pow(width, 2) + Math.pow(height, 2));
     }
 
+
     // Главный метод, точка входа в программу
     public static void main(String[] args) {
         // Создаем объект класса Rectangle с шириной 5 и высотой 10
