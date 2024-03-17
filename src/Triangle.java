@@ -30,6 +30,7 @@ public class Triangle { // Объявляем публичный класс Tria
         return sideA == sideB || sideB == sideC || sideC == sideA;
     }
 
+
     // Главный метод, точка входа в программу
     public static void main(String[] args) {
         // Создаем объект класса Scanner для чтения ввода пользователя
