@@ -1,3 +1,4 @@
+# RU
 # Калькулятор треугольника
 
 Это программа разработанна на языке программирования Java, с целью выполнения различных вычислений, связанных с треугольниками. Основные функции включают в себя вычисление периметра, площади треугольника по формуле Герона и проверку треугольника на равнобедренность.
@@ -54,4 +55,60 @@
 Площадь треугольника: 6.0
 Треугольник равнобедренный: false
 ```
+# EN
+# Triangle calculator
 
+This program is developed in Java programming language for the purpose of performing various calculations related to triangles. Basic functions include calculating the perimeter, area of a triangle using Heron's formula, and testing the triangle for isosceles.
+
+## Requirements
+
+- Java Development Kit (JDK) installed on your computer.
+- Any Java development environment or text editor (for example, IntelliJ IDEA, Eclipse, Visual Studio Code) for viewing and editing code.
+
+## How to use
+
+1. Clone the repository to your computer or download the `Triangle.java` file directly.
+2. Open the file in your Java development environment or text editor of choice.
+3. Compile and run the `Triangle.java` file.
+4. Follow the onscreen instructions to enter the lengths of the three sides of the triangle.
+5. The program will display the perimeter, area, and information about whether the triangle is isosceles.
+
+## Description of classes
+
+### `Triangle`
+
+#### Variables
+
+- `private double sideA`: Length of side A of the triangle.
+- `private double sideB`: Length of side B of the triangle.
+- `private double sideC`: Length of side C of the triangle.
+
+#### Constructors
+
+- `public Triangle(double sideA, double sideB, double sideC)`: Creates a new triangle object with the given side lengths.
+
+#### Methods
+
+- `public double calculatePerimeter()`: Calculates the perimeter of a triangle.
+- `public double calculateArea()`: Calculates the area of a triangle using Heron's formula.
+- `public boolean isIsosceles()`: Checks whether the triangle is isosceles.
+
+### `Main`
+
+#### Methods
+
+- `public static void main(String[] args)`: The entry point to the program. Reads the lengths of the sides of a triangle from the user, creates a `Triangle` object, calculates and displays the perimeter, area and isosceles information of the triangle.
+
+## Example I/O
+
+```
+Enter the length of side A:
+3
+Enter the length of side B:
+4
+Enter the length of side C:
+5
+Triangle perimeter: 12.0
+Triangle area: 6.0
+Isosceles triangle: false
+```
