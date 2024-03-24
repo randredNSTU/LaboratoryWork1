@@ -59,3 +59,4 @@ public class Triangle { // Объявляем публичный класс Tria
         scanner.close();
     }
 }
+
