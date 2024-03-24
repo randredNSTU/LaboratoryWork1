@@ -37,5 +37,4 @@ public class Rectangle {
         // Выводим длину диагонали прямоугольника
         System.out.println("Длина диагонали прямоугольника: " + rectangle.calculateDiagonal());
     }
-    
 }
