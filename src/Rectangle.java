@@ -38,4 +38,3 @@ public class Rectangle {
         System.out.println("Длина диагонали прямоугольника: " + rectangle.calculateDiagonal());
     }
 }
-
