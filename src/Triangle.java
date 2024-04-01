@@ -7,9 +7,14 @@ public class Triangle { // Объявляем публичный класс Tria
 
     // Конструктор класса Triangle, который принимает три аргумента типа double
     public Triangle(double sideA, double sideB, double sideC) {
-        this.sideA = sideA; // Инициализируем поле sideA значением аргумента sideA
-        this.sideB = sideB; // Инициализируем поле sideB значением аргумента sideB
-        this.sideC = sideC; // Инициализируем поле sideC значением аргумента sideC
+            if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) {
+            this.sideA = sideA; // Инициализируем поле sideA значением аргумента sideA
+            this.sideB = sideB; // Инициализируем поле sideB значением аргумента sideB
+            this.sideC = sideC; // Инициализируем поле sideC значением аргумента sideC
+            } else {
+                System.out.println("Такого треугольника не существует");
+                System.exit(0);
+            }
     }
 
     // Метод для вычисления периметра треугольника
